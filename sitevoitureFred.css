@@ -2,10 +2,13 @@
     flex: 1 1 auto;
     text-align: center;
 }
+
+/*sidebar*/
 .coupscoeur{
     background-color: black;
     color: white;
     justify-content: center;
+    margin-top: 1rem;
 }
 .titrescoupscoeur{
     text-align: center;
@@ -13,18 +16,41 @@
 .divvoiturecoeur{
     margin-bottom: 1rem;
 }
+.barrecote{
+    padding-top: 1rem;
+    padding-right: 1rem;
+    background-color: lightblue;
+}
+
+/*Partie centrale*/
 .contenu{
     display: flex;
-    padding-top: 20px;
+    padding-top: 1rem;
 }
 .fondbleu{
     background-color: lightblue;
-    padding-top: 20px!important;
+    padding-top: 1rem!important;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
-.barrecote{
-    padding-top: 20px;
+.taillebtn{
+    font-size: 0.8rem;
 }
+
+/*Footer*/
 .fondnoir{
     background-color: black;
     color: white;
+    margin-left: 0;
+    margin-right: 0;
+}
+.reseaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*Formulaire*/
+.formulaire{
+    border-top: solid 2px red;
 }
