@@ -1,0 +1,30 @@
+.elementsnav{
+    flex: 1 1 auto;
+    text-align: center;
+}
+.coupscoeur{
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+.titrescoupscoeur{
+    text-align: center;
+}
+.divvoiturecoeur{
+    margin-bottom: 1rem;
+}
+.contenu{
+    display: flex;
+    padding-top: 20px;
+}
+.fondbleu{
+    background-color: lightblue;
+    padding-top: 20px!important;
+}
+.barrecote{
+    padding-top: 20px;
+}
+.fondnoir{
+    background-color: black;
+    color: white;
+}
