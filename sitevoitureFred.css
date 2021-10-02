@@ -1,3 +1,4 @@
+/*obligée de préciser manuellement afin que les liens de la nav prennent toute la barre*/
 .elementsnav{
     flex: 1 1 auto;
     text-align: center;
@@ -44,13 +45,20 @@
     margin-left: 0;
     margin-right: 0;
 }
+.services{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+/*permet aux liens réseaux d'être espacés en prennant toute la largeur de la div. ne marchait pas avec
+les classes prédéfinies de Bootstrap.*/
 .reseaux{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-/*Formulaire*/
+/*Page Formulaire*/
 .formulaire{
     border-top: solid 2px red;
 }
