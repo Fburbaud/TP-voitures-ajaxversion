@@ -1,9 +1,3 @@
-/*obligée de préciser manuellement afin que les liens de la nav prennent toute la barre*/
-.elementsnav{
-    flex: 1 1 auto;
-    text-align: center;
-}
-
 /*sidebar*/
 .coupscoeur{
     background-color: black;
