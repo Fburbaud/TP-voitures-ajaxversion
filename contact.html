@@ -1,171 +1,128 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
-  <link rel="stylesheet" href="bootstrap.min.css">
-  <link rel="stylesheet" href="sitevoitureFred.css">
-</head>
-
-<body>
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="sitevoitureFred.html">
-          <img src="LogoAfpa.jpg" alt="" width="60" height="60" class="d-inline-block align-text-top">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse nav-fill" id="navbarNav">
-          <ul class="navbar-nav flex-sm-fill">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="sitevoitureFred.html">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">A propos de nous</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <div class="container pb-sm-3">
-    <div class="row featurette">
-      <div class="container px-4 py-5" id="hanging-icons">
-        <div class="row g-4 py-5 row-cols-1 justify-content-evenly">
-          <div class="col-lg-3 d-flex align-items-start formulaire">
-            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-              <img src="telephone.png" width="40rem" height="40rem" alt="tel">
-            </div>
-            <div>
-              <h2>Par téléphone</h2>
-              <p>06 00 56 97 44</p>
-              <p>+33 6 00 56 97 44 (depuis l'étranger)</p>
-            </div>
+<div class="container pb-sm-3">
+  <div class="row featurette">
+    <div class="container px-4 py-5" id="hanging-icons">
+      <div class="row g-4 py-5 row-cols-1 justify-content-evenly">
+        <div class="col-lg-3 d-flex align-items-start formulaire">
+          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+            <img src="telephone.png" width="40rem" height="40rem" alt="tel">
           </div>
-          <div class="col-lg-3 d-flex align-items-start formulaire">
-            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-              <img src="calendar.png" width="40rem" height="40rem" alt="calendrier">
-            </div>
-            <div>
-              <h2>Fixer un rendez-vous</h2>
-              <p>Pour une expertise par exemple.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 d-flex align-items-start formulaire">
-            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-              <img src="form.png" width="40rem" height="40rem" alt="calendrier">
-            </div>
-            <div>
-              <h2>Pour toutes questions</h2>
-              <p>N'hésitez pas à remplir le formulaire ci-dessous.</p>
-            </div>
+          <div>
+            <h2>Par téléphone</h2>
+            <p>06 00 56 97 44</p>
+            <p>+33 6 00 56 97 44 (depuis l'étranger)</p>
           </div>
         </div>
-      </div>
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Vous souhaitez nous contacter? <span class="text-muted">Pour un achat ou une
-            vente.</span></h2>
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptate consequuntur similique
-          esse impedit, obcaecati repudiandae architecto unde nemo, officia exercitationem eligendi magni magnam tempore
-          saepe quaerat, optio placeat molestiae aperiam libero. Veritatis quia corporis qui tempore, culpa quasi
-          assumenda asperiores in sequi omnis, vitae et ea quo, molestiae quisquam.</p>
-      </div>
-      <div class="col-md-5">
-        <form class="needs-validation" novalidate="">
-          <div class="row g-3">
-            <div class="col-sm-6">
-              <label for="firstName" class="form-label">Prenom</label>
-              <input type="text" class="form-control" id="firstName" placeholder="Prenom" value="" required>
-              <div class="invalid-feedback">
-                Prenom valide requis.
-              </div>
-            </div>
-
-            <div class="col-sm-6">
-              <label for="lastName" class="form-label">Nom</label>
-              <input type="text" class="form-control" id="lastName" placeholder="Nom" value="" required>
-              <div class="invalid-feedback">
-                Nom valide requis.
-              </div>
-            </div>
-
-            <div class="col-sm-7">
-              <label for="email" class="form-label">Email <span class="text-muted"></span></label>
-              <input type="email" class="form-control" id="email" placeholder="vous@example.com" required>
-              <div class="invalid-feedback">
-                Merci d'entrer une adresse mail valide.
-              </div>
-            </div>
-
-            <div class="col-sm-5">
-              <label for="telephone" class="form-label">Telephone</label>
-              <div class="input-group">
-                <span class="input-group-text" id="inputGroupPrepend2">+33</span>
-                <input type="text" class="form-control" id="telephone" placeholder="0612345678" value=""
-                  pattern="^[0-9]{10}$" required>
-              </div>
-              <div class="invalid-feedback">
-                Numero de telephone valide requis.
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="address" class="form-label">Adresse</label>
-              <input type="text" class="form-control" id="address" placeholder="12 rue de la paix" required>
-              <div class="invalid-feedback">
-                Veuillez entrer votre adresse.
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="address2" class="form-label">Adresse 2 <span class="text-muted">(Optional)</span></label>
-              <input type="text" class="form-control" id="address2" placeholder="Appartement, etage, escalier, etc">
-            </div>
-
-            <div class="col-md-5">
-              <label for="country" class="form-label">Pays</label>
-              <select class="form-select" id="country" required>
-                <option value="">Choix...</option>
-                <option>France</option>
-              </select>
-              <div class="invalid-feedback">
-                Merci de selectionner un pays.
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <label for="zip" class="form-label">Code postal</label>
-              <input type="text" class="form-control" id="zip" placeholder="Code postal" required>
-              <div class="invalid-feedback">
-                Code postal requis.
-              </div>
-            </div>
+        <div class="col-lg-3 d-flex align-items-start formulaire">
+          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+            <img src="calendar.png" width="40rem" height="40rem" alt="calendrier">
           </div>
-
-          <hr class="my-4">
-
-          <div class="col-12">
-            <label for="msg">Message :</label>
-            <textarea name="Message" class="form-control" id="" cols="20" rows="10" required></textarea>
+          <div>
+            <h2>Fixer un rendez-vous</h2>
+            <p>Pour une expertise par exemple.</p>
           </div>
-
-          <hr class="my-4">
-
-          <button class="w-100 btn btn-danger btn-lg" type="submit">Soumettre le formulaire</button>
-        </form>
+        </div>
+        <div class="col-lg-3 d-flex align-items-start formulaire">
+          <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+            <img src="form.png" width="40rem" height="40rem" alt="calendrier">
+          </div>
+          <div>
+            <h2>Pour toutes questions</h2>
+            <p>N'hésitez pas à remplir le formulaire ci-dessous.</p>
+          </div>
+        </div>
       </div>
     </div>
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Vous souhaitez nous contacter? <span class="text-muted">Pour un achat ou une
+          vente.</span></h2>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptate consequuntur similique
+        esse impedit, obcaecati repudiandae architecto unde nemo, officia exercitationem eligendi magni magnam tempore
+        saepe quaerat, optio placeat molestiae aperiam libero. Veritatis quia corporis qui tempore, culpa quasi
+        assumenda asperiores in sequi omnis, vitae et ea quo, molestiae quisquam.</p>
+    </div>
+    <div class="col-md-5">
+      <form class="needs-validation" novalidate="">
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <label for="firstName" class="form-label">Prenom</label>
+            <input type="text" class="form-control" id="firstName" placeholder="Prenom" value="" required>
+            <div class="invalid-feedback">
+              Prenom valide requis.
+            </div>
+          </div>
 
+          <div class="col-sm-6">
+            <label for="lastName" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Nom" value="" required>
+            <div class="invalid-feedback">
+              Nom valide requis.
+            </div>
+          </div>
+
+          <div class="col-sm-7">
+            <label for="email" class="form-label">Email <span class="text-muted"></span></label>
+            <input type="email" class="form-control" id="email" placeholder="vous@example.com" required>
+            <div class="invalid-feedback">
+              Merci d'entrer une adresse mail valide.
+            </div>
+          </div>
+
+          <div class="col-sm-5">
+            <label for="telephone" class="form-label">Telephone</label>
+            <div class="input-group">
+              <span class="input-group-text" id="inputGroupPrepend2">+33</span>
+              <input type="text" class="form-control" id="telephone" placeholder="0612345678" value=""
+                pattern="^[0-9]{10}$" required>
+            </div>
+            <div class="invalid-feedback">
+              Numero de telephone valide requis.
+            </div>
+          </div>
+
+          <div class="col-12">
+            <label for="address" class="form-label">Adresse</label>
+            <input type="text" class="form-control" id="address" placeholder="12 rue de la paix" required>
+            <div class="invalid-feedback">
+              Veuillez entrer votre adresse.
+            </div>
+          </div>
+
+          <div class="col-12">
+            <label for="address2" class="form-label">Adresse 2 <span class="text-muted">(Optional)</span></label>
+            <input type="text" class="form-control" id="address2" placeholder="Appartement, etage, escalier, etc">
+          </div>
+
+          <div class="col-md-5">
+            <label for="country" class="form-label">Pays</label>
+            <select class="form-select" id="country" required>
+              <option value="">Choix...</option>
+              <option>France</option>
+            </select>
+            <div class="invalid-feedback">
+              Merci de selectionner un pays.
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <label for="zip" class="form-label">Code postal</label>
+            <input type="text" class="form-control" id="zip" placeholder="Code postal" required>
+            <div class="invalid-feedback">
+              Code postal requis.
+            </div>
+          </div>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="col-12">
+          <label for="msg">Message :</label>
+          <textarea name="Message" class="form-control" id="" cols="20" rows="10" required></textarea>
+        </div>
+
+        <hr class="my-4">
+
+        <button class="w-100 btn btn-danger btn-lg" type="submit">Soumettre le formulaire</button>
+      </form>
+    </div>
   </div>
-</body>
-
-</html>
+</div>
